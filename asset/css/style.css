@@ -32,3 +32,13 @@ label{
     display: flex;
     align-items: center;
 }
+
+footer.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ddd;
+    color: inherit;
+    text-align: center;
+    margin-top: 2rem ;
+}
