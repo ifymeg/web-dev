@@ -53,3 +53,7 @@ input.box {
     border-left: 0;
     border-bottom: 1px solid #ddd;border-radius: 0;
 }
+
+.rounded-4{
+    border-radius: .8rem;
+}
