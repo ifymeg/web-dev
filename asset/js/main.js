@@ -1,8 +1,10 @@
-window.onload = () => {
-    console.log('object');
-}
+// window.onload = () => {
+//     console.log('object');
+// }
 
-function submit() {
+const submitForm = (e) => {
+    e.preventDefault();
+    
     const firstname = document.getElementById('firstname');
     const lastname = document.getElementById('lastname');
     const phoneNumber = document.getElementById('phoneNumber');
@@ -10,8 +12,6 @@ function submit() {
     const gender = document.getElementById('gender');
 
     let error = 0;
-
-    
 
 
 }

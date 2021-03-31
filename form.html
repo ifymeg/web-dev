@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-lg-6 col-md-8 mx-auto p-3">
                   
-                    <form action="" onsubmit="submit()">
+                    <form onsubmit="submitForm(event)">
                         <div class="form-group mb-2">
                             <label for="firstname">First Name</label>
                             <input type="text" name="firstname" id="firstname" class="form-control form-control-sm"
@@ -64,9 +64,9 @@
                             <option value="NONE">i'd rather not say</option>
                         </select>
 
-                        <div class="text-center mt-3 ">
-                            <button class="btn btn-sm btn-danger" type='reset'>Reset</button>
-                            <button class="btn btn-sm btn-primary" type='submit'><i class="fas fa-folder-open"></i>&nbsp;Submit</button>
+                        <div class="text-center mt-3">
+                            <button class="btn btn-sm btn-danger" type='reset'><i class="fas fa-trash"></i>&nbsp;Reset</button>
+                            <button class="btn btn-sm btn-primary"><i class="fas fa-folder-open"></i>&nbsp;Submit</button>
                             
                         </div>
                     </form>
@@ -81,7 +81,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.2/js/all.min.js"
         integrity="sha256-fSTOU0SRn5RY+zbLHohdi9Vvuk0ZudMqdvg1a377bMs=" crossorigin="anonymous"></script>
-    <script src="./asset/js/main.js" async defer></script>
+    <script src="./asset/js/main.js"></script>
 </body>
 
 </html>
