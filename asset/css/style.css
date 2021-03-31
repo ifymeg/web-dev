@@ -1,4 +1,7 @@
-
+.text-rotate{
+    /* position: inherit; */
+    /* transform: rotate(-190deg); */
+}
 div.bg-main{
     background-color: #972189c6;
     color: #eee;
@@ -7,7 +10,7 @@ div.bg-mainAlt{
     background-color: #eb13c027;
 }
 .text-head{
-  color: purple;
+  color:rgb(90, 87, 87);
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -46,14 +49,33 @@ button.bg-main4{
     background-color: rgb(25, 1, 48);
     color: white;
 }
+button.bg-main4:hover{
+    background-color: rgb(25, 1, 48);
+    color: white;
+}
 
 input.box {
     border-top: 0;
     border-right: 0;
     border-left: 0;
-    border-bottom: 1px solid #ddd;border-radius: 0;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    color: white;
 }
+
+input.box:active {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    color: white;
+}
+
 
 .rounded-4{
     border-radius: .8rem;
+}
+.text-color{
+    color: rgb(202, 146, 250);
 }
